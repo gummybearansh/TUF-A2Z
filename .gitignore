@@ -1,8 +1,11 @@
-# Ignore all files and directories
+# Ignore everything by default
 *
 
-# Allow .cpp files in the main folder and all subfolders (including nested ones)
-!**/*.cpp
+# Unignore the folders
+!*/
+
+#  unignore the c++ files
+!*.cpp
 
 # Allow .gitignore file itself
 !.gitignore
